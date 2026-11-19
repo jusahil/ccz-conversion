@@ -1,0 +1,3 @@
+# Preserve exact source and reference-output bytes on checkout.
+* -text
+*.pdf binary

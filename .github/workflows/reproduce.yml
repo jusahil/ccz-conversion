@@ -1,0 +1,40 @@
+name: Scientific reproduction
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.5'
+          cache: pip
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y g++ poppler-utils
+          python -m pip install -r requirements.txt
+          python -m pip check
+      - name: Verify and test
+        run: |
+          python verification/check_manifest.py
+          python -m unittest discover -s tests -v
+          python -m examples.quick_start
+      - name: Reproduce
+        run: python verification/reproduce.py --profile full --out reproduction/ci --jobs 2
+      - name: Evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scientific-reproduction
+          path: |
+            reproduction/ci/summary.json
+            reproduction/ci/results/*.out
+            reproduction/ci/results/*.err
+            reproduction/ci/results/*.json
+            reproduction/ci/results/*.log
+            reproduction/ci/data/
+            reproduction/ci/figures/
