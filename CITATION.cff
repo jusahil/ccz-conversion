@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite this software release and the accompanying scientific article."
+title: "Exact CCZ Conversion under Conserved Binary Charges: Research Software"
+type: software
+authors:
+  - family-names: Imtiyaz
+    given-names: Sahil
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/jusahil/ccz-conversion"
+abstract: "Research software, exact computational datasets, independent certificates and reproduction tools for finite CCZ conversion under conserved binary charges."
+keywords:
+  - quantum information
+  - magic states
+  - quantum resource theory
+  - CCZ conversion
+  - conserved charges
+  - reproducible research

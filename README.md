@@ -44,6 +44,10 @@ The quantitative graphs are generated from the exact stored values or regenerate
 
 ## Availability and citation
 
-Software release and citation metadata will be finalized with the author-approved article. Cite the article and the versioned software release together. No DOI, published repository address, or license is asserted before author confirmation. This snapshot is a release candidate; hosted CI and installation from freshly downloaded packages have not yet been verified. Consult the article for operational assumptions and the complete mathematical proofs.
+Author: Sahil Imtiyaz. The research software is distributed under the MIT License (see `LICENSE`). The accompanying scientific article is a separate work. Cite the article and the versioned software release together; machine-readable software citation metadata is in `CITATION.cff`.
 
-Before publishing, review and add author-approved `CITATION.cff` and `LICENSE`, then regenerate the manifest with `python scripts/update_manifest.py --confirm-reviewed-change` and rerun the tests. Do not regenerate it to conceal an unexplained integrity failure.
+Repository: https://github.com/jusahil/ccz-conversion
+
+The initial GitHub Actions reproduction run on commit `dacc2d92537966df3510853b97be4d2f77959257` completed successfully, including integrity verification, nine tests, full scientific reproduction and evidence upload. See [the workflow run](https://github.com/jusahil/ccz-conversion/actions/runs/44565234749). The planned first public release is v1.0.0; no Zenodo DOI is asserted until it is issued. Consult the article for operational assumptions and complete mathematical proofs.
+
+After any intentional, reviewed repository changes, regenerate the manifest with `python scripts/update_manifest.py --confirm-reviewed-change` and rerun the tests. Do not regenerate it to conceal an unexplained integrity failure.

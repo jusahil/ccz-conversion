@@ -1,17 +1,10 @@
 # Publishing a versioned research artifact
 
-1. Extract the repository folder. Start with a private GitHub repository, review every file and confirm the software license, author identifiers and citation metadata. Add them only after approval. No license has been selected in this candidate.
-2. Run the quick start and full reproduction. If you intentionally add metadata, regenerate SHA256SUMS with `python scripts/update_manifest.py --confirm-reviewed-change` and run verification again.
-3. Create an empty repository on GitHub (do not initialize it with another README). From the extracted folder, run:
+The initial scientific snapshot is hosted at https://github.com/jusahil/ccz-conversion. The author-approved software license is MIT and the citation author is Sahil Imtiyaz. The initial public version is planned as v1.0.0.
 
-```sh
-git init -b main
-git add .
-git commit -m "Scientific software release candidate"
-git remote add origin https://github.com/YOUR-ACCOUNT/YOUR-REPOSITORY.git
-git push -u origin main
-```
-
-Replace the example URL with the actual repository address. Authentication is handled by GitHub; do not commit credentials. Check that the Actions workflow actually succeeds. Inspect its uploaded evidence and compare its JSON and data files to the reference outputs. If a platform-specific stdout difference occurs, diagnose it; do not overwrite the reference before review.
-4. After author approval and the final manuscript audit, tag a fixed version and create a GitHub release. Archive the identical release using a trusted archival service such as Zenodo and use its issued version-specific DOI. Do not cite an uncreated DOI or URL. The article must link the actual release and its code/data availability statement.
-5. The public package contains scientific scripts, exact data, figures and tests. Keep private correction registers, drafts, development history and author-facing audits outside it. Obtain any required permissions and comply with the target journal's disclosure requirements for research software and other assistance.
+1. Before public release, confirm the repository is cleared for public distribution, including institutional permissions where applicable. Review `LICENSE`, `CITATION.cff` and the scientific files.
+2. On the final commit, confirm the GitHub Actions workflow succeeds. Inspect uploaded evidence and compare its JSON and data files to the reference outputs. If a platform-specific stdout difference occurs, diagnose it; do not overwrite reference results without review. For intentional file changes, use `python scripts/update_manifest.py --confirm-reviewed-change` before running the verification again.
+3. When the author approves public release, change repository visibility to public. Sign in to Zenodo, connect the GitHub account, sync repositories and enable archival for this repository **before** publishing a GitHub release.
+4. From GitHub Releases, create tag `v1.0.0` targeting the verified commit and publish the release with the title "Exact CCZ Conversion under Conserved Binary Charges: Research Software v1.0.0". Verify Zenodo archives the tagged snapshot and check its author, title, version and license metadata.
+5. Cite the issued version-specific DOI and repository address in the article. Do not cite an uncreated DOI. If adding a DOI badge or metadata to GitHub later, regenerate the manifest and keep the archived tag unchanged.
+6. The public package contains scientific scripts, exact data, figures and tests. Keep private correction registers, drafts, development history and author-facing audits outside it. Obtain any required permissions and comply with the target journal's disclosure requirements for research software and other assistance.
