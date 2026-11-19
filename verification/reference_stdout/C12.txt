@@ -1,0 +1,13 @@
+Two-copy radical identity: 1072 exhaustive 4D cases + 40 seeded 5D cases
+Heterogeneous pair test: 16384 exhaustive + 400 seeded rank-3 shared label cases
+Graph parity/radical + exact cycle intersections: 1099 graphs; active 672
+Witness circuit all branches/basis labels: 2488 checks; 12 constructive cases + below-cost controls
+Coordinate reference benchmark: d=1,2, all r<=d; exact moments agree
+CCZ^2 rank histogram {0: 1, 2: 14, 4: 49} P2 121/1024 vanishing codim 2
+GF4 rank histogram {0: 1, 4: 63} P2 79/1024 vanishing codim 2
+A rank histogram {0: 1, 2: 3, 4: 76, 6: 48} P2 29/512
+Fano rank histogram {0: 1, 2: 7, 4: 56, 6: 64} P2 29/512
+Fano: 127 hyperplanes, zero CCZ^2 rank-spectrum matches
+Fano exhaustive one-drop search: nullity counts {0: 28, 3: 2, 4: 896, 5: 196, 6: 31644}
+Fano eta=6 projected P2 histogram: [('1/16', 6272), ('527/8192', 8192), ('35/512', 1792), ('65/686', 4096), ('25/256', 6272), ('11/108', 28), ('461/4374', 4096), ('143/1250', 896)]
+Fano matches to CCZ^2 P2=121/1024: 0 ; all checks passed

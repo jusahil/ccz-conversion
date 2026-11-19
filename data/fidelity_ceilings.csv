@@ -1,0 +1,5 @@
+task,value,status
+A: 2 targets,1,attained
+B: 2 targets,121/128,upper bound
+F4: 2 targets,57/64,upper bound
+Det: 3 targets,13199/16384,upper bound

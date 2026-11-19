@@ -1,0 +1,22 @@
+spaces 67 pairs 1072 activation {1: 135, 2: 840, 3: 30, 99: 67} relative d {0: 135, 1: 525, 2: 315, 3: 30, 99: 67} reference minima checks 2144 errors 0
+A 1 rank {0: 1, 2: 7} P2 11/32 M2 1.540568381
+A 2 rank {0: 1, 2: 14, 4: 49} P2 121/1024 M2 3.081136763
+A 3 rank {0: 1, 2: 21, 4: 147, 6: 343} P2 1331/32768 M2 4.621705144
+B 1 rank {0: 1} P2 1 M2 -0.000000000
+B 2 rank {0: 1, 2: 15, 4: 16} P2 23/128 M2 2.476438044
+B 3 rank {0: 1, 2: 9, 4: 102, 6: 144} P2 95/2048 M2 4.430144392
+C 1 rank {0: 1} P2 1 M2 -0.000000000
+C 2 rank {0: 1} P2 1 M2 -0.000000000
+C 3 rank {0: 1, 4: 63} P2 79/1024 M2 3.696219252
+GF4 trace: 64/64 basis labels matched
+512 full-support stabilizer phases: maximum squared overlap 9/16
+Reference star 1 P2 11/32
+Reference star 2 P2 23/128
+Reference star 3 P2 71/512
+Reference star 4 P2 263/2048
+Reference orientation A rank {0: 4, 2: 56, 4: 196} nullity 6 P2 121/1024
+Reference orientation B rank {0: 8, 2: 120, 4: 128} nullity 5 P2 23/128
+GF(2^1) trace rank {0: 1, 2: 7} P2 11/32
+GF(2^2) trace rank {0: 1, 4: 63} P2 79/1024
+GF(2^3) trace rank {0: 1, 6: 511} P2 575/32768
+Heralded rank-extent and flagged fidelity constants: exact checks passed

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "C01",
+    "path": "src/algebra.py",
+    "source_sha256": "c425f068380f2a8553509297f214fbc6ea7b38f6c681621eb686ae3c01936bbc",
+    "expected_stdout_sha256": "ac5a04e7333925ae26d07c87d7e3ca1514b529705c4533bd1fce5bac79205ed6",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C02",
+    "path": "checks/weighted_graphs.py",
+    "source_sha256": "d6475e8342ba45b0e4a0d27e39c52576f3b9e40cb5758bc5761c8b25bff9c608",
+    "expected_stdout_sha256": "867c0cea15a9de2cb9877e7a156ad291d33d1684118341c0f52aa05fa6b4814e",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C03",
+    "path": "src/extended.py",
+    "source_sha256": "0680cf1ece06a6ce481a86c011013c6482f9c3f7f1ec9cc657d38c226a24fa7a",
+    "expected_stdout_sha256": "3c9d3475f02011f35b0832f95100c36bc5c1646bddcf74ab79549c5bb7bdd71f",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C04",
+    "path": "checks/cohomology.py",
+    "source_sha256": "33ebfb77f21076c48f1e47da81d6be0b9a78025eebfb4d714c981093ffbce286",
+    "expected_stdout_sha256": "d653ba6e671b8cff38468c65f05d33896fe4c5447b944743cd16d87b0633fee5",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C05",
+    "path": "src/physical.py",
+    "source_sha256": "1b622b235c2a6cc889060bad9ad862021982360c04a9664ac73a619d83ab5973",
+    "expected_stdout_sha256": "8f9bc30077bf8c1828b78c6c08186cfff99fe28a77246f915b0eca1dba99ddd6",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C06",
+    "path": "src/new_certificate.py",
+    "source_sha256": "568fd1d37e89c11951ffcd842e934c589ab1c8d27a45af6fa4ce6909fcb04fa9",
+    "expected_stdout_sha256": "a37f98d433e2eaa561145592049d422275c379d05acd2c633cf33b1d90e551d2",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C07",
+    "path": "checks/graph_census.py",
+    "source_sha256": "abe138adcd49607521aef61b374544c49fd93a987ec739146536d55c4719eca2",
+    "expected_stdout_sha256": "6640a931e36b10faa6d054bd7134cf7c3f19194c9d91a7e422aba24d930b78d6",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C08",
+    "path": "certificates/projected_amplitudes.cpp",
+    "source_sha256": "147bddc5fd48e0183a727f252bca7597767cefcb26d1259412a34c62f91fe85f",
+    "expected_stdout_sha256": "49efe016d05493247e4dcaae393fc6f12d89c08176717ce8c2fd64af926e6204",
+    "reference_mode": "aggregate",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C09",
+    "path": "certificates/pauli_products.cpp",
+    "source_sha256": "aa6a0a8a5ce0e569df41ab685821e168318617ea574e999c3437cc20a1ddd544",
+    "expected_stdout_sha256": "1d796b285fb22754a0dc1e4651759c0d982c0133f2a90c497ac702cfd8485b3c",
+    "reference_mode": "aggregate",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C11",
+    "path": "checks/foundational.py",
+    "source_sha256": "b006e69a3c051abff235d4b86bee2c14b06eb4569f69e6b349d022c963f211f8",
+    "expected_stdout_sha256": "99526090e76269495df7faa32f8b950041e6464b718635cd0d943dc81626a243",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C12",
+    "path": "checks/protocols.py",
+    "source_sha256": "c8e583cbbef4aaa9b24bb7a76e7b644e8d1ffaca9d48aca766bbb89fd5f11248",
+    "expected_stdout_sha256": "c7e7e0e006387476cde0d017cb0512956992efead3fc5ac73a121d7b8c9099ba",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C14",
+    "path": "checks/tensor_graphs.py",
+    "source_sha256": "4f37d42d3229fd8bbb15b9185ade08c1885474ab9b62cb2074a03225e71d08da",
+    "expected_stdout_sha256": "4d066f92452212509d9a342c4d897fccd71aaa3fa1db4e617179488da948ebc5",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C16",
+    "path": "checks/independent_cubics.py",
+    "source_sha256": "bfbc6a2f8e95dd4de7eb401a636d2c27c7f0d17a356f8303efb59290745c6ff2",
+    "expected_stdout_sha256": "183d5d7b2934b2fd30d719fe04de446e80d9debd91d1f657d00a5d2829e6fc50",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "C17",
+    "path": "checks/independent_concentration.py",
+    "source_sha256": "d9de7d08f11a6dfcb3a4a4a1f87aebd5f35c3615d015e2cd3c3600bc83190eda",
+    "expected_stdout_sha256": "b5b23ea081e38c957f18b32d5d22ceb1645c3b39d143f3f940786f618077c78f",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "S7-F",
+    "path": "certificates/pauli_walsh.cpp",
+    "source_sha256": "d9e871b22b94904cdda4e402e37c1a976a3531aff75bb6ead84a62a4c2ad34f8",
+    "expected_stdout_sha256": "ae07f72c06caac7f332c59544842dc56d8225d1ce6b4e736b691bafb489a14bb",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "S8-A",
+    "path": "checks/finite_controls.py",
+    "source_sha256": "e55b0b45adfb870ed626ad27f05b55ada477caab47fd2e5f27b014b2b04ec8bf",
+    "expected_stdout_sha256": "f94b94d92fc28afcde72ec482e7e3a76cad3cf1b468bd8f7a7808bbb76e49512",
+    "reference_mode": "exact",
+    "args": [],
+    "profile": "core"
+  },
+  {
+    "id": "N01",
+    "path": "checks/relative_pencils.py",
+    "source_sha256": "19b9868515c28065121f8656d6399bd20bcbd6e7f085fde704d419d217d1e75d",
+    "reference_mode": "assertions",
+    "args": [],
+    "profile": "extended"
+  },
+  {
+    "id": "N02",
+    "path": "checks/concentration_families.py",
+    "source_sha256": "e1f8d1a338999f993c2bb206885ab1c1f48861d90916316c16b52b850eb064e1",
+    "reference_mode": "assertions",
+    "args": [],
+    "profile": "extended"
+  },
+  {
+    "id": "N03",
+    "path": "checks/series_filtration.py",
+    "source_sha256": "53b610757bc0904f6d079d3e88f9e07cc04c0768efa7eb40653c54f02a13ee40",
+    "reference_mode": "assertions",
+    "args": [],
+    "profile": "extended"
+  },
+  {
+    "id": "N04",
+    "path": "checks/network_examples.py",
+    "source_sha256": "125ca1c323069610ba85ceddb2b71aef2813e875410388767881a48ee6bd9a5f",
+    "reference_mode": "assertions",
+    "args": [],
+    "profile": "extended"
+  },
+  {
+    "id": "N05",
+    "path": "checks/determinant_css.py",
+    "source_sha256": "7b5527e92bd39db977861910da32f28861ef3f7274fb33525434711d6344b3f6",
+    "reference_mode": "assertions",
+    "args": [],
+    "profile": "extended"
+  },
+  {
+    "id": "N06",
+    "path": "checks/robustness.py",
+    "source_sha256": "f51fe5f337c4f3a00cbb9b000a386b4bf9917a0a99040f728acd1e933aaf193d",
+    "reference_mode": "assertions",
+    "args": [],
+    "profile": "extended"
+  },
+  {
+    "id": "N07",
+    "path": "checks/relative_examples.py",
+    "source_sha256": "0e6100e837326005bfa9736f71856d902d3244cacf5f455b8fd8dc1845ddee9e",
+    "reference_mode": "assertions",
+    "args": [],
+    "profile": "extended"
+  }
+]

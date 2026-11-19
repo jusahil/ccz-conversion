@@ -1,0 +1,23 @@
+branches 32766
+nullity 0 28
+nullity 3 2
+nullity 4 896
+nullity 5 196
+nullity 6 31644
+P2 1/16 6272
+P2 11/108 28
+P2 25/256 6272
+P2 35/512 1792
+P2 65/686 4096
+P2 143/1250 896
+P2 461/4374 4096
+P2 527/8192 8192
+spectrum bound 23/32 4096
+spectrum bound 25/32 4096
+spectrum bound 121/128 6272
+spectrum bound 373/512 6272
+spectrum bound 375/512 1792
+spectrum bound 431/512 28
+spectrum bound 751/1024 8192
+spectrum bound 1119/1280 896
+max spectrum bound 121/128 witness (a,b,sign) 0,1,-1

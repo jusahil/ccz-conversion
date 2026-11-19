@@ -1,0 +1,12 @@
+Pencil/radical exhaustive comparisons: 1072 PASS
+Heterogeneous reachability: 16384 exhaustive + 400 seeded with references PASS
+A contraction histogram {0: 1, 2: 3, 4: 76, 6: 48} P2 29/512 P3 383/32768 kappa=2
+B contraction histogram {0: 1, 2: 7, 4: 56, 6: 64} P2 29/512 P3 107/8192 kappa=2
+n 1 graphs 1 active 0 motifs 0 minimum-cost equality PASS
+n 2 graphs 2 active 0 motifs 0 minimum-cost equality PASS
+n 3 graphs 8 active 1 motifs 1 minimum-cost equality PASS
+n 4 graphs 64 active 23 motifs 4 minimum-cost equality PASS
+n 5 graphs 1024 active 648 motifs 22 minimum-cost equality PASS
+n 6 graphs 32768 active 27871 motifs 272 minimum-cost equality PASS
+Graph motif minimum comparisons: 33867 active: 28543 PASS
+Heterogeneous weighted graph motif tests: 160 seeded graphs with 2-bit tensor labels PASS

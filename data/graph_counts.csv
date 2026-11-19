@@ -1,0 +1,7 @@
+vertices,graphs,complete_graph_cycles,active
+1,1,0,0
+2,2,0,0
+3,8,1,1
+4,64,7,23
+5,1024,37,648
+6,32768,197,27871

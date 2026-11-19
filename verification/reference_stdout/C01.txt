@@ -1,0 +1,18 @@
+S0 forms/spaces 1072 type {inf: 67, 3: 30, 2: 315, 1: 525, 0: 135} copy {inf: 67, 3: 30, 2: 840, 1: 135} reference comparisons 2144
+monomial 0 1 eta 3 P2 11/32 P3 23/128
+monomial 0 2 eta 6 P2 121/1024 P3 529/16384
+monomial 0 3 eta 9 P2 1331/32768 P3 12167/2097152
+monomial 1 1 eta 0 P2 1 P3 1
+monomial 1 2 eta 5 P2 23/128 P3 1/16
+monomial 1 3 eta 8 P2 95/2048 P3 511/65536
+monomial 2 1 eta 0 P2 1 P3 1
+monomial 2 2 eta 3 P2 11/32 P3 23/128
+monomial 2 3 eta 7 P2 29/512 P3 383/32768
+monomial 3 1 eta 0 P2 1 P3 1
+monomial 3 2 eta 0 P2 1 P3 1
+monomial 3 3 eta 6 P2 79/1024 P3 319/16384
+A (7, Fraction(29, 512), Fraction(383, 32768), {0: 1, 2: 3, 4: 76, 6: 48})
+B (7, Fraction(29, 512), Fraction(107, 8192), {0: 1, 2: 7, 4: 56, 6: 64})
+fidelity 9/16 full support phases 512
+10 seeded sparse cubic cases (6-9 bits), both algorithms and affine-Clifford regression
+heterogeneous aligned unequal forms activate; equal forms cancel; disjoint injective images K=0

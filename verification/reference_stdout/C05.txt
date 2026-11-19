@@ -1,0 +1,13 @@
+matter-link chain: 8 branches, 64 coherent amplitudes, all intermediate dressed shifts Gauss-valid; exact target
+half-link gluing: 64 full conditional amplitude maps, 4096 amplitudes; duplicates retained; all old Gauss laws satisfied
+dressed reference: 8 branches, 128 amplitudes each for +/- preparation; full token factorizes, minus branch adds neutral Z
+theta quotient branches 1 amplitudes 64 accessible eta/P2 (6, Fraction(79, 1024))
+triangle plus pentagon quotient branches 8 amplitudes 64 accessible eta/P2 (3, Fraction(11, 32))
+odd cycle blocked quotient branches 8 amplitudes 8 accessible eta/P2 (0, Fraction(1, 1))
+determinant (9, Fraction(149, 8192), Fraction(10369, 4194304), {0: 1, 4: 49, 6: 294, 8: 168})
+determinant 8 affine branches extract 2CCZ; nullity saturation excludes 3
+cubical T3: six sizes L=3..8, membrane flatness and coordinate loop duality
+cycle Z noise L 3 F 0.9143563630902687
+cycle Z noise L 5 F 0.8626937392135056
+cycle Z noise L 9 F 0.7707771006801502
+cycle Z noise L 21 F 0.5658717597875176

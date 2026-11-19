@@ -1,0 +1,15 @@
+T3 V,E,F,T,b1= 27 189 324 162 3 cup checks 27 elementary exact shifts 729
+S1xS2 V,E,F,T,b1= 12 48 72 36 1 cup checks 1 elementary exact shifts 36
+T3#S1xS2 V,E,F,T,b1= 35 231 392 196 4 cup checks 64 elementary exact shifts 1680
+RP3 V,E,F,T,b1= 40 232 384 192 1 cup checks 1 elementary exact shifts 120
+torus common restriction costs [0, 1, 2, 3]
+connected sum matched rank costs [0, 1, 2, 3]
+chain and reference branch identities: 64 assignments each; charge conservation 128
+matter half-link gluing: 4096 assignments
+CCZ and three-matter chain fourth moments/nullities 11/32 3 79/1024 6
+cycle filtration: exhaustive homogeneous graphs through 5 vertices 1099 and 160 seeded heterogeneous graphs through 6
+triangle threshold 3
+square threshold None
+theta threshold 4
+C9 threshold 9
+edge supply gluing: 64 equiprobable syndromes, 512 assignments, exact CCZ

@@ -1,0 +1,24 @@
+h=2 determinant, every 3D reference R in F2^6: 1395
+contraction ranks ((0, 1), (2, 7), (4, 56)) references 384
+contraction ranks ((0, 2), (2, 30), (4, 32)) references 840
+contraction ranks ((0, 8), (2, 56)) references 168
+contraction ranks ((0, 64),) references 3
+full nullity reference count 384
+4D coordinate reference witnesses: 64 assignments
+fully charged N 3 dimension 6 rank counts {0: 1, 4: 63}
+N 3 all branch identities checked 64
+fully charged N 4 dimension 9 rank counts {0: 1, 4: 49, 6: 294, 8: 168}
+N 4 all branch identities checked 512
+fully charged N 5 dimension 12 rank counts {0: 1, 4: 70, 6: 420, 8: 1925, 10: 1680}
+N 5 all branch identities checked 4096
+fully charged N 6 dimension 15 rank counts {0: 1, 4: 105, 6: 840, 8: 4522, 10: 13860, 12: 13440}
+N 6 all branch identities checked 32768
+reference N 2 ell 1 eta 3
+reference N 2 ell 2 eta 5
+reference N 2 ell 3 eta 6
+reference N 3 ell 1 eta 7
+reference N 3 ell 2 eta 8
+reference N 3 ell 3 eta 9
+reference N 4 ell 1 eta 10
+reference N 4 ell 2 eta 11
+reference N 4 ell 3 eta 12

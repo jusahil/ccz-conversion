@@ -1,0 +1,1 @@
+160 seeded tensor-labelled graphs (two independent label coefficients, nonnegative costs); pair and minimal motif optimum agree; active 154

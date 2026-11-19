@@ -1,0 +1,7 @@
+labelled vertices 1 graphs 1 cycles in complete graph 0 active graphs 0
+labelled vertices 2 graphs 2 cycles in complete graph 0 active graphs 0
+labelled vertices 3 graphs 8 cycles in complete graph 1 active graphs 1
+labelled vertices 4 graphs 64 cycles in complete graph 7 active graphs 23
+labelled vertices 5 graphs 1024 cycles in complete graph 37 active graphs 648
+labelled vertices 6 graphs 32768 cycles in complete graph 197 active graphs 27871
+total 33867 active 28543

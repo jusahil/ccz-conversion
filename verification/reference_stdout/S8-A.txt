@@ -1,0 +1,19 @@
+stabilizers {0: 8, 1: 112, 2: 448, 3: 512} maxima {0: Fraction(1, 8), 1: Fraction(1, 4), 2: Fraction(1, 2), 3: Fraction(9, 16)} full-support real 64
+A 127 hyperplanes, 0 vanish; explicit five-plane verified [2, 4, 8, 32, 64]
+B 127 hyperplanes, 0 vanish; explicit five-plane verified [3, 5, 24, 40, 72]
+GF4 trace 64 assignments
+512 coefficient matrices {0: 1, 1: 49, 2: 294, 3: 168} nullities {0: 1, 3: 49, 5: 294, 6: 168}
+F4 sorted-spectrum bound 57/64
+rank-three normal sorted-spectrum bound 121/128
+determinant sorted-spectrum bound 13199/16384
+noise 3 u=.01 0.9143563630902687
+noise 5 u=.01 0.8626937392135056
+noise 9 u=.01 0.7707771006801502
+noise 21 u=.01 0.5658717597875176
+unequal-rate independent example 239/600
+Hoeffding sufficient trials 14122
+84 joint-block price checks; reference price ties 1/2 and 1
+common vs independent hidden sign: lambda=1/2, T=2: 3/4, 9/16
+conditional one-space cup types 0,1,3; copy thresholds 1,2,3
+bridge and unattached subdivision invisible in all four flows
+C12 seeded map ranks {0: 1, 1: 81, 2: 454, 3: 264} both full 45 combined full 347

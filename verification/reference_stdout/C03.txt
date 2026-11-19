@@ -1,0 +1,8 @@
+two-copy pencil: 36 seeded forms/refs, 3064 exact contraction matrices; radical checks
+heterogeneous charge images 120 seeded exact overlap/kernel comparisons
+CCZ full independent local phase average P2 151/512 6q with spectators 51793/262144
+d 0 charged-axes-only P2 3773/16384
+d 1 charged-axes-only P2 245/1024
+d 2 charged-axes-only P2 133/512
+d 3 charged-axes-only P2 151/512
+monomial d=1,2 scalable nullity sanity N=2..4
